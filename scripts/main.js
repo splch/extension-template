@@ -15,7 +15,7 @@ function processData(data) {
 
 function getRequest(url, arg) {
 	const xhr = new XMLHttpRequest();
-	xhr.open("GET", url + "?url=" + arg);
+	xhr.open("GET", url + "?TODO=true&url=" + arg);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			const rsp = JSON.parse(this.responseText);
@@ -35,25 +35,4 @@ function getActiveUrl() {
 
 document.getElementById("request").addEventListener("click", function () {
 	getActiveUrl();
-});
-
-chrome.runtime.onInstalled.addListener(details => {
-	const currentVersion = chrome.runtime.getManifest().version
-	const reason = details.reason
-
-	console.log("Current Version: ${currentVersion }")
-
-	switch (reason) {
-		case "install":
-			console.log("New User installed the extension.")
-			break;
-		case "update":
-			console.log("User has updated their extension.")
-			break;
-		case "chrome_update":
-		case "shared_module_update":
-		default:
-			console.log("Other install events within the browser")
-			break;
-	}
 });

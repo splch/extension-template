@@ -13,3 +13,12 @@ Places to put your code are labeled with "TODO". Globally search for "TODO" to c
 - [ ] Notifications
 - [x] Icons
 - [x] Webworker
+
+Running
+
+```bash
+sudo chmod +x build.sh
+./build.sh
+```
+
+will compress the necessary files into a zip file.
