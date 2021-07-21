@@ -1,0 +1,31 @@
+{
+	"manifest_version": 3,
+	"name": "TODO Extension Name",
+	"version": "0.1",
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": {
+			"16": "images/icon16.png",
+			"32": "images/icon32.png",
+			"48": "images/icon48.png",
+			"128": "images/icon128.png"
+		}
+	},
+	"description": "TODO Description that appears in the store.",
+	"icons": {
+		"16": "images/icon16.png",
+		"32": "images/icon32.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},
+	"author": "TODO Your Name",
+	"homepage_url": "https://TODO.com",
+	"minimum_chrome_version": "88",
+	"offline_enabled": true,
+	"permissions": [
+		"tabs"
+	],
+	"host_permissions": [
+		"https://httpbin.org/get"
+	]
+}
