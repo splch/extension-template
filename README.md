@@ -2,6 +2,8 @@
 
 This is a template pop-up extension.
 
+![Image of Demo Extension](images/demo.png)
+
 Places to put your code are labeled with "TODO". Globally search for "TODO" to complete them.
 
 ## [Features](https://stackoverflow.com/questions/tagged/google-chrome-extension)
