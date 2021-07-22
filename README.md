@@ -4,15 +4,25 @@ This is a template pop-up extension.
 
 Places to put your code are labeled with "TODO". Globally search for "TODO" to complete them.
 
-[Features](https://stackoverflow.com/questions/tagged/google-chrome-extension):
+## [Features](https://stackoverflow.com/questions/tagged/google-chrome-extension)
+
+Chrome:
 
 - [x] Manifest Version: 3
+- [ ] Background Script
+- [x] Storage
+- [x] Cookies
+- [x] Tabs
+
+General:
+
 - [x] Javascript Module File
 - [x] HTTP Get Request
 - [x] Active Tab URL
 - [ ] Notifications
-- [x] Icons
+- [x] Clipboard
 - [x] Webworker
+- [x] Icons
 
 Running
 
