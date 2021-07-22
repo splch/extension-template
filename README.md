@@ -24,6 +24,8 @@ General:
 - [x] Webworker
 - [x] Icons
 
+## [Publishing](https://developer.chrome.com/docs/webstore/publish/)
+
 Running
 
 ```bash
